@@ -12,7 +12,7 @@ pip install sklearn
 pip install scikit-learn==0.22.2.post1
 Pip install sklearn-extensions==0.0.2
 Pip install pyswarms==1.1.0
-pip install protobuf==3.20.0 --user
+pip install protobuf==3.20.0 
 pip install --upgrade numpy
 pip install --upgrade pandas
 pip install nltk
@@ -28,9 +28,12 @@ pip install tensorflow==1.14.0 (used for CNN implementation)
 pip install h5py==2.10.0 (used for support to tensorflow and keras libraries)
 pip install sklearn (used for Machine learning Algorithms implementation like Decision tree,randomforest Tree,etc)
 
-pip install  --only-binary :all: mysqlclient --user
+pip install  --only-binary :all: mysqlclient
 
-pip install mysqlclient --user
+pip install mysqlclient 
+
+gunicorn
+
 
 
 
